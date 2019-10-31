@@ -10,5 +10,7 @@ body{
     overflow: hidden;
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
