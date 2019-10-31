@@ -59,7 +59,7 @@ var test;
                         i=0;
                         document.body.style.backgroundImage = "url('assets/error1.png')";
                     }
-                }, 150);
+                }, 200);
 
 
                 break;
