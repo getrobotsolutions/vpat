@@ -92,7 +92,7 @@ function SetRobotFace()
 	window.external.SetRobotFace();
 }
 
-function PlaySpeech1(speechString)
+function PlaySpeech(speechString)
 {
 
 	window.external.PlaySpeech(speechString);
