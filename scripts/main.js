@@ -46,7 +46,21 @@
                 PlaySpeech("I’m So glad you asked, John.  Productivity is my passion.  Robots perform much better than humans in nearly every respect, as you have seen.");
                 break;
             case '0':
-                document.body.style.backgroundImage = "url('assets/error.png')";
+                var i=0;
+                setInterval(function () {
+                    if(i===0)
+                    {
+                        document.body.style.backgroundImage = "url('assets/error.png')";
+                        i=1;
+                    }
+                    else
+                    {
+                        i=0;
+                        document.body.style.backgroundImage = "url('assets/error1.png')";
+                    }
+                }, 150);
+
+
                 break;
             default:
                 alert("Script is in between 1 to 9, you pressed:  " + String.fromCharCode(keynum));
