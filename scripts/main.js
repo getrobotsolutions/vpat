@@ -21,7 +21,7 @@
                 break;
             case '3':
                 document.body.style.backgroundImage = "url('assets/suit.png')";
-                PlaySpeech("Safety is our number one priority.  We constantly look for all types of hazards! (large projection screen and robot torso screen flashes image of The Dukes of Hazzard.");
+                PlaySpeech("Safety is our number one priority.  We constantly look for all types of hazards!");
                 break;
             case '4':
                 document.body.style.backgroundImage = "url('assets/3.png')";
