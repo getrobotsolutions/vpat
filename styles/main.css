@@ -3,5 +3,9 @@ body{
     margin: 0;
     width: 1080px;
     height: 1920px;
-    background-color: red;
+    //background-color: red;
+    background-image: url("../assets/suit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
