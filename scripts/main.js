@@ -8,7 +8,7 @@
             keynum = e.which;
         }
 
-        alert(String.fromCharCode(keynum));
+        //alert(String.fromCharCode(keynum));
         switch (String.fromCharCode(keynum)) {
 
             case '1':
