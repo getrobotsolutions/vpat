@@ -1,6 +1,7 @@
-
+var test;
     function myKeyPress(e){
         var keynum;
+        clearInterval(test);
 
         if(window.event) { // IE
             keynum = e.keyCode;
@@ -47,7 +48,7 @@
                 break;
             case '0':
                 var i=0;
-                setInterval(function () {
+                test = setInterval(function () {
                     if(i===0)
                     {
                         document.body.style.backgroundImage = "url('assets/error.png')";
