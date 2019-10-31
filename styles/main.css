@@ -5,7 +5,7 @@ body{
     height: 1920px;
     background-color: white;
     background-image: url("../assets/suit.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     -ms-overflow-style: none;
