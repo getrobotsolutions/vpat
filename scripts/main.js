@@ -47,7 +47,7 @@ var test;
                 PlaySpeech("I’m So glad you asked, John.  Productivity is my passion.  Robots perform much better than humans in nearly every respect, as you have seen.");
                 break;
             case '0':
-                DeleteRobotFace;
+                DeleteRobotFace();
                 MakeRobotFace();
                 SetRobotFace();
                 var i=0;
