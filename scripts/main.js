@@ -2,6 +2,7 @@ var test;
     function myKeyPress(e){
         var keynum;
         clearInterval(test);
+        DeleteRobotFace();
 
         if(window.event) { // IE
             keynum = e.keyCode;
