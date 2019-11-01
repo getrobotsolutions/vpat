@@ -51,7 +51,7 @@ var test;
                 GetCaptureImage();
                 GetCaptureImageBase64();
                 MakeRobotFace();
-                //SetRobotFace();
+                SetRobotFace();
                 var i=0;
                 test = setInterval(function () {
                     if(i===0)
